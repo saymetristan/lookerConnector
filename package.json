@@ -1,0 +1,21 @@
+{
+  "name": "meta-api-backend",
+  "version": "1.0.0",
+  "description": "Backend para interactuar con la API de Marketing de Meta y procesar datos para Looker",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "node-mocks-http": "^1.9.0"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC"
+}
